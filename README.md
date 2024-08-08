@@ -5,14 +5,14 @@ Before running the code, the working directory should contain MIROC6 historical 
 responsible of extracting Observed data from Alexandro's work, applying Power-transformation on MIROC6 data, and computing P_Bias for a specific pixel.
 the main function is WrapperFunc
 
-- **Validation.py : **
+- **Validation.py :**
   
 similar to PT-Monthly, but applies Power transformation on the period 1961-2012 and validates the corrected data on 2013-2014.
 
-- **Validation-10years.py : **
+- **Validation-10years.py :**
   
 similar to the previous file. It goes through all 10-years sets of the dataset and validates on the last two years of each set for each pixel.
 
-- **Validation-analisis.py:*
+- **Validation-analisis.py:**
   
 a file to generate graphs of PT parameters and P_bias values of the validation files
