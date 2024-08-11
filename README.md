@@ -24,13 +24,19 @@ Here is how the directories-tree looks like so far :
 
   ├── PT_results
 
+  │   ├── validation-trend-amazonia
+  
+  │   └── validation-trend-mata atlantica
+  
+  ├── P_bias
+  
+  │   ├── validation
   
   │   ├── validation-trend-amazonia
+  
   │   └── validation-trend-mata atlantica
-  ├── P_bias
-  │   ├── validation
-  │   ├── validation-trend-amazonia
-  │   └── validation-trend-mata atlantica
+  
   ├── miroc6_historico
+  
   ├── params_per_pixel
   └── pr_Tmax_Tmin_NetCDF_Files
