@@ -22,13 +22,13 @@ a file to generate graphs of PT parameters and P_bias values of the validation f
 
 Here is how the directories-tree looks like so far : 
 
-  ├── PT_results
+  ├── **PT_results**
 
   │   ├── validation-trend-amazonia
   
   │   └── validation-trend-mata atlantica
   
-  ├── P_bias
+  ├── **P_bias**
   
   │   ├── validation
   
@@ -36,7 +36,7 @@ Here is how the directories-tree looks like so far :
   
   │   └── validation-trend-mata atlantica
   
-  ├── miroc6_historico
+  ├── **miroc6_historico**
   
-  ├── params_per_pixel
-  └── pr_Tmax_Tmin_NetCDF_Files
+  ├── **params_per_pixel**
+  └── **pr_Tmax_Tmin_NetCDF_Files**
