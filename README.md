@@ -19,3 +19,16 @@ a file to generate graphs of PT parameters and P_bias values of the validation f
 
 - **PT_all_grid** :
   a file to apply power transformation over all available pixels over Brazil. Parameters are fitted over the period 1961 - 2014.
+
+Here is how the directories-tree looks like so far : 
+
+  ├── PT_results
+  │   ├── validation-trend-amazonia
+  │   └── validation-trend-mata atlantica
+  ├── P_bias
+  │   ├── validation
+  │   ├── validation-trend-amazonia
+  │   └── validation-trend-mata atlantica
+  ├── miroc6_historico
+  ├── params_per_pixel
+  └── pr_Tmax_Tmin_NetCDF_Files
