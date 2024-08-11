@@ -16,3 +16,6 @@ similar to the previous file. It goes through all 10-years sets of the dataset a
 - **Validation-analisis.py:**
   
 a file to generate graphs of PT parameters and P_bias values of the validation files
+
+- **PT_all_grid** :
+  a file to apply power transformation over all available pixels over Brazil. Parameters are fitted over the period 1961 - 2014.
