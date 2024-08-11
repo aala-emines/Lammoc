@@ -23,6 +23,8 @@ a file to generate graphs of PT parameters and P_bias values of the validation f
 Here is how the directories-tree looks like so far : 
 
   ├── PT_results
+
+  
   │   ├── validation-trend-amazonia
   │   └── validation-trend-mata atlantica
   ├── P_bias
