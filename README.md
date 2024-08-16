@@ -17,8 +17,14 @@ similar to the previous file. It goes through all 10-years sets of the dataset a
   
 a file to generate graphs of PT parameters and P_bias values of the validation files
 
-- **PT_all_grid** :
+- **PT_all_grid.py** :
   a file to apply power transformation over all available pixels over Brazil. Parameters are fitted over the period 1961 - 2014.
+
+- **netCDF_access.py** :
+  a file hosting simple code to access PT fitted parameters.
+  It is preferable to set 'method' to 'nearest'.
+  Otherwise, the user can compute rainfall for the registred pixels (included in netCDF_access.py) and then interpolate to get rainfall for unregistred pixels.
+  We expect the user to use MIROC6 model as raw precipitation data to be corrected by the fitted parameters of power transormation.
 
 Here is how the directories-tree looks like so far : 
 
