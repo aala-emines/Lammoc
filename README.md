@@ -26,6 +26,9 @@ a file to generate graphs of PT parameters and P_bias values of the validation f
   Otherwise, the user can compute rainfall for the registred pixels (included in netCDF_access.py) and then interpolate to get rainfall for unregistred pixels.
   We expect the user to use MIROC6 model as raw precipitation data to be corrected by the fitted parameters of power transormation.
 
+- **SSP_correction** :
+  a file used to correct raw MIROC6 forcecast with parameters obtained from the fitting process from PT-Monthly.py
+
 Here is how the directories-tree looks like so far : 
 
     ├── PT_results - cleaned
