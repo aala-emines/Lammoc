@@ -28,16 +28,15 @@ a file to generate graphs of PT parameters and P_bias values of the validation f
 
 Here is how the directories-tree looks like so far : 
 
-    ├── PT_results
+    ├── PT_results - cleaned
     │   ├── validation-trend-amazonia
     │   └── validation-trend-mata atlantica
-    ├── PT_results - Copie
+    ├── PT_results - raw
     │   ├── validation-trend-amazonia
     │   └── validation-trend-mata atlantica
     ├── PT_results - cleaned
     ├── P_bias
     │   ├── P_bias_all_grid - cleaned
-    │   ├── P_bias_all_grid - useless
     │   ├── P_bias_all_grid raw
     │   ├── validation
     │   ├── validation-trend-amazonia
@@ -53,4 +52,5 @@ Here is how the directories-tree looks like so far :
         ├── ssp_corr_245
         ├── ssp_corr_370
         └── ssp_corr_585
+Some folders are cleaned from data referring to pixels that are out of Brazilian territory.
 
