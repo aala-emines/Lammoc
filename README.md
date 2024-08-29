@@ -28,21 +28,28 @@ a file to generate graphs of PT parameters and P_bias values of the validation f
 
 Here is how the directories-tree looks like so far : 
 
-  ├── **PT_results**
-
-  │   ├── validation-trend-amazonia
-  
-  │   └── validation-trend-mata atlantica
-  
-  ├── **P_bias**
-  
-  │   ├── validation
-  
-  │   ├── validation-trend-amazonia
-  
-  │   └── validation-trend-mata atlantica
-  
-  ├── **miroc6_historico**
-  
-  ├── **params_per_pixel**
-  └── **pr_Tmax_Tmin_NetCDF_Files**
+├── PT_results
+│   ├── validation-trend-amazonia
+│   └── validation-trend-mata atlantica
+├── PT_results - Copie
+│   ├── validation-trend-amazonia
+│   └── validation-trend-mata atlantica
+├── PT_results - cleaned
+├── P_bias
+│   ├── P_bias_all_grid - cleaned
+│   ├── P_bias_all_grid - useless
+│   ├── P_bias_all_grid raw
+│   ├── validation
+│   ├── validation-trend-amazonia
+│   └── validation-trend-mata atlantica
+├── miroc6_historical_daily
+├── miroc6_historico
+├── miroc6_ssp245
+├── miroc6_ssp370
+├── miroc6_ssp585
+├── params_per_pixel
+├── pr_Tmax_Tmin_NetCDF_Files
+└── ssp_corr
+    ├── ssp_corr_245
+    ├── ssp_corr_370
+    └── ssp_corr_585
