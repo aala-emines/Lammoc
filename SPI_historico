@@ -1,0 +1,25 @@
+import os
+import pandas as pd
+from scipy.stats import gamma, norm
+
+start_date = '2004-05-31'
+end_date = '2004-09-30'
+scale = 3
+def calculate_spi(precip_data, scale):
+    precip_data_rolled = precip_data.rolling(window=scale).sum()
+    precip_data_rolled = precip_data_rolled.dropna()
+    shape, loc, scale_param = gamma.fit(precip_data_rolled, floc=0)  # Fix location at 0
+    gamma_cdf = gamma.cdf(precip_data_rolled, shape, loc=loc, scale=scale_param)
+    # Convert the gamma CDF to the standard normal distribution to get SPI
+    spi = norm.ppf(gamma_cdf)
+    return spi
+
+for filename in os.listdir("PT_results - cleaned"):
+    df = pd.read_csv("PT_results - cleaned/"+filename)
+    df['time'] = pd.to_datetime(df['time'])
+    df = df[(df['time'] >= start_date) & (df['time']<= end_date)]
+    print(df)
+    spi = calculate_spi(df['Transformed_MIROC6_Pr'],scale)
+    print('coordinates : ', (filename[:-28]),"SPI : ",spi)
+    break
+
