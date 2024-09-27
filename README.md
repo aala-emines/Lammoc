@@ -31,7 +31,7 @@ a file to generate graphs of PT parameters and P_bias values of the validation f
 - **SSP_correction** :
   a file used to correct raw MIROC6 forcecast with parameters obtained from the fitting process from PT-Monthly.py
 
-- ** SPI_historico** :
+- **SPI_historico** :
 - a file used to compute SPI index based on Transformed data from the directory 
 
 Here is how the directories-tree looks like so far : 
