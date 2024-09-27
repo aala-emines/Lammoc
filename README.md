@@ -1,3 +1,5 @@
+This Repository hosts the work that has been done for LAMMOC to help devloping vulnerability maps.
+Access obtained datasets via Zenodo : https://zenodo.org/uploads/13317002
 Before running the code, the working directory should contain MIROC6 historical data and Alexandro's .netcdf files, as well as directories named PT-results and P_bias to store generates .csv files.
 
 - **PT-Monthly.py :**
